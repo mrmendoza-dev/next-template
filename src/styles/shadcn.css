@@ -1,0 +1,15 @@
+/* Shadcn UI Overrides */
+
+/*
+ * Icon-collapsed sidebar: invisible group labels use opacity + negative margin and
+ * can stack above the previous group's last item — let clicks pass through.
+ * Also center icon-only menu buttons in the narrow rail.
+ */
+[data-slot="sidebar"][data-collapsible="icon"] [data-sidebar="group-label"] {
+	pointer-events: none;
+}
+
+[data-slot="sidebar"][data-collapsible="icon"] [data-sidebar="menu-item"] {
+	display: flex;
+	justify-content: center;
+}

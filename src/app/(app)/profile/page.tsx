@@ -1,10 +1,5 @@
-export default function ProfilePage() {
-  return (
-    <div className="flex flex-col gap-2" data-testid="profile-page">
-      <h1 className="text-lg font-semibold">Profile</h1>
-      <p className="text-sm text-muted-foreground">
-        Profile placeholder — add account settings here.
-      </p>
-    </div>
-  );
+import { ProfileView } from "@/components/profile/profile-view";
+
+export default function Page() {
+	return <ProfileView />;
 }
