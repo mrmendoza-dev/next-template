@@ -1,11 +1,7 @@
-import { getDb } from "@/lib/db";
-import { examples } from "@/lib/db/schema";
 import { NextResponse } from "next/server";
 
-export const runtime = "nodejs";
-
-export const GET = () => {
-  const db = getDb();
-  const rows = db.select().from(examples).all();
-  return NextResponse.json(rows);
-};
+/**
+ * Demo Route Handler — no SQLite / native drivers here (minimal Node surface).
+ * Wire your own data layer (hosted DB, edge-friendly client, or Bun workers) when needed.
+ */
+export const GET = () => NextResponse.json([]);
