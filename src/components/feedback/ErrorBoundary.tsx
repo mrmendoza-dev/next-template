@@ -1,7 +1,7 @@
 "use client";
 
 import React, { type ErrorInfo } from "react";
-import { ErrorGeneric } from "@/components/feedback/error-generic";
+import { ErrorGeneric } from "@/components/feedback/ErrorGeneric";
 
 interface ErrorBoundaryProps {
 	children: React.ReactNode;

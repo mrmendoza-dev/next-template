@@ -1,4 +1,4 @@
-import { DetailView } from "@/components/detail/detail-view";
+import { DetailView } from "@/components/detail/DetailView";
 
 type PageProps = {
 	params: Promise<{ id: string }>;

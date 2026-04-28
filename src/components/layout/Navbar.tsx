@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ThemeToggle } from "@/components/common/theme-toggle";
+import { ThemeToggle } from "@/components/common/ThemeToggle";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { useApplicationContext } from "@/contexts/application-context";
+import { useApplicationContext } from "@/contexts/ApplicationContext";
 import { cn } from "@/lib/utils";
 
 export const Navbar = ({ className }: { className?: string }) => {

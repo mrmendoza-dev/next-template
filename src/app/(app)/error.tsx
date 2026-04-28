@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { ErrorScreenShell } from "@/components/feedback/error-screen-shell";
+import { ErrorScreenShell } from "@/components/feedback/ErrorScreenShell";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 

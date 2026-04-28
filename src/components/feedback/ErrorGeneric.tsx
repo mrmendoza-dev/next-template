@@ -3,7 +3,7 @@
 import { AlertCircle } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ErrorScreenShell } from "@/components/feedback/error-screen-shell";
+import { ErrorScreenShell } from "@/components/feedback/ErrorScreenShell";
 import { Button } from "@/components/ui/button";
 
 export type ErrorGenericProps = {

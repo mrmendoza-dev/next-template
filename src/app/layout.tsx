@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { ErrorBoundary } from "@/components/feedback/error-boundary";
-import { Providers } from "@/contexts/providers";
+import { ErrorBoundary } from "@/components/feedback/ErrorBoundary";
+import { Providers } from "@/contexts/Providers";
 import "./globals.css";
 
 const geistSans = Geist({
