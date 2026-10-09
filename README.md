@@ -10,7 +10,7 @@ Add optional narrative docs (for example `docs/CHANGELOG.md` or a modernization 
 - **Framework:** Next.js App Router, React 19, TypeScript strict, `next/font` (Geist), Route Handlers for API
 - **Styling:** Tailwind v4 (`@tailwindcss/postcss`), theme tokens in CSS (`src/app/globals.css`, `src/styles/`)
 - **UI:** Broad shadcn/ui kit under `src/components/ui/` (`@base-ui/react`, `components.json` for the CLI), `AppShell` with sidebar and navbar
-- **Data:** TanStack Query (`src/lib/query-client.ts`, `src/contexts/providers.tsx`); public API URL helper in `src/lib/config.ts` (`NEXT_PUBLIC_API_URL` or same-origin)
+- **Data:** TanStack Query (`src/lib/query-client.ts`, `src/contexts/Providers.tsx`); public API URL helper in `src/lib/config.ts` (`NEXT_PUBLIC_API_URL` or same-origin)
 - **Database:** Drizzle schema in `src/lib/db/schema.ts`, migrations in `drizzle/`; apply with **`bun run db:migrate`** (`scripts/migrate.ts` uses **`bun:sqlite`**). Next.js Route Handlers stay free of SQLite/native drivers — `/api/v1/examples` is a placeholder until you wire your own store.
 - **Quality:** Biome (`lint`, `format`, `check` / `ci`)
 
